@@ -1,0 +1,43 @@
+@import '../../../styles/common.scss';
+
+.justInfoSection {
+  color: $black;
+  text-align: center;
+  margin-bottom: 200px;
+
+  .heightLine {
+    width: 1px;
+    height: 80px;
+    margin: 25px auto;
+    border-left: $border;
+  }
+
+  .desc {
+    font-size: $fs20;
+  }
+
+  .brand {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .subDesc {
+    margin: 28px;
+    color: #888;
+    font-size: $fs8;
+    line-height: 30px;
+  }
+
+  .viewMore {
+    max-width: 80px;
+    margin: 0 auto 30px;
+    padding-bottom: 10px;
+    border-bottom: $border;
+    color: $gray;
+    font-size: $fs2;
+  }
+
+  .productImage {
+    width: 600px;
+  }
+}

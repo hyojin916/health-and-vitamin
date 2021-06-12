@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "count": 3,
+    "options": [
+      {
+        "option_id": 4,
+        "count": 5
+      },
+      {
+        "option_id": 5,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "count": 1,
+    "options": [
+      {
+        "option_id": 4,
+        "count": 1
+      },
+      {
+        "option_id": 5,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "count": 2,
+    "options": []
+  }
+]

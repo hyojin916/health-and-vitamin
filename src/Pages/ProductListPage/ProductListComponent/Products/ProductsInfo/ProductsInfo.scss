@@ -1,0 +1,22 @@
+.productList {
+  .products_info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    max-width: 1700px;
+
+    .num {
+      font-weight: 700;
+    }
+
+    .product_filters > button {
+      background: none;
+      border: none;
+      font-size: 14px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "price": 7900,
+  "subItemList": [
+    {
+      "id": 1,
+      "name": "소피소피 휴대용 손소독제 핸드 새니타이저",
+      "price": 3000,
+      "imageUrl": "//duftndoft.com/web/product/tiny/202103/c7785a60f402d312f85f997dfcf80ce4.jpg",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "name": "더프트앤도프트 선물용 쇼핑백",
+      "price": 800,
+      "imageUrl": "//duftndoft.com/web/product/tiny/202102/bf66ab0bcc27c4b74a5be18a21787cb4.jpg",
+      "count": 1
+    },
+    {
+      "id": 3,
+      "name": "방역키트 세트(핸드워시+리필+새니타이저+핸드크림 50ml)",
+      "price": 23900,
+      "imageUrl": "//duftndoft.com/web/product/tiny/202102/084d214cbc9ca59a120e1c3a9d6cb5df.jpg",
+      "count": 1
+    }
+  ],
+  "imageList": [
+    {
+      "id": 1,
+      "imageUrl": "//duftndoft.com/web/product/big/202104/9fd50669ade4e9238e19272e8901b3b2.jpg"
+    },
+    {
+      "id": 2,
+      "imageUrl": "//duftndoft.com/web/product/extra/small/202104/4413079cba8eeb438345f8e07b3469d9.jpg"
+    },
+    {
+      "id": 3,
+      "imageUrl": "//duftndoft.com/web/product/extra/small/202104/5ea6a78ea8b5fcf87a3d64d07ad1578e.jpg"
+    },
+    {
+      "id": 4,
+      "imageUrl": "//duftndoft.com/web/product/extra/small/202104/4396c1e7bbcd7f7bcc9f8bb53381c815.jpg"
+    },
+    {
+      "id": 5,
+      "imageUrl": "//duftndoft.com/web/product/extra/small/202104/ac833074fa1731ad46310b38a329ffc9.jpg"
+    }
+  ]
+}

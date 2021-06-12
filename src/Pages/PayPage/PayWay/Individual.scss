@@ -1,0 +1,24 @@
+.individual {
+  #phoneNumber1 {
+    width: 174px;
+    height: 40px;
+    padding: 7px;
+    outline: none;
+    border: 1px solid gray;
+  }
+
+  .phoneNumber2,
+  .phoneNumber3 {
+    width: 182px;
+    height: 40px;
+    padding: 7px;
+    outline: none;
+    border: 1px solid gray;
+  }
+
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}

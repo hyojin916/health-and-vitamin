@@ -1,0 +1,58 @@
+@import '../../styles/common.scss';
+
+.productSubItem {
+  display: flex;
+  width: 593px;
+  padding: 19px 20px 10px 20px;
+  border-bottom: $border;
+
+  .itemImage {
+    width: 100px;
+    height: 100px;
+    border: $imgBorder;
+  }
+
+  .information {
+    margin-left: 20px;
+  }
+
+  .informationTitle {
+    height: 17px;
+    margin-bottom: 5px;
+    font-size: $fs4;
+    font-family: $NotoKR;
+  }
+
+  .informationPrice {
+    display: inline-block;
+    height: 17px;
+    margin-bottom: 5px;
+    font-size: $fs2;
+  }
+
+  .option {
+    margin-left: 20px;
+
+    .optionName {
+      margin: 10px 0 5px 0;
+      font-size: $fs2;
+    }
+
+    .optionSelect {
+      width: 414px;
+      padding: 5px;
+      outline: none;
+      border: $border;
+      border-radius: 3px;
+      color: #333;
+      font-family: $NotoKR;
+      font-size: $fs2;
+      font-weight: $fw2;
+    }
+
+    .optionItem {
+      font-size: $fs2;
+      font-weight: $fw2;
+    }
+  }
+}

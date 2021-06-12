@@ -1,0 +1,20 @@
+.cacheBox {
+  margin: 25px 15px;
+
+  .cache {
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+  }
+
+  #cacheReceipt,
+  #cacheReceiptNot {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+  }
+
+  .cacheReceiptLabel {
+    margin-right: 20px;
+  }
+}

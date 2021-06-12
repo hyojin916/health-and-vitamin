@@ -1,0 +1,42 @@
+.productList {
+  .change_page {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    width: 270px;
+    height: 100px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+
+    .page {
+      width: 40px;
+      height: 40px;
+      background-color: rgba(223, 219, 219, 0.61);
+      line-height: 2.2;
+      font-size: 20px;
+      border-radius: 50%;
+    }
+
+    .change {
+      display: flex;
+
+      .change-btn {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border: 1px solid lightgray;
+      }
+
+      .change-btn > button {
+        background: none;
+        margin: 0 auto;
+        border: none;
+      }
+
+      .change-icon {
+        color: rgb(182, 180, 180);
+        line-height: 17px;
+      }
+    }
+  }
+}

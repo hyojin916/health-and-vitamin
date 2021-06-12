@@ -1,0 +1,96 @@
+{
+  "BEST_PRODUCT": [
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943177782O1WUT_JPEG/12079012611837895_1272929187.jpg?type=f295_381",
+      "name": "test10",
+      "price": 23000,
+      "product_id": 38
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_177/1610943763740g7QQB_JPEG/12079598554570127_1982250700.jpg?type=f295_381",
+      "name": "test9",
+      "price": 23000,
+      "product_id": 37
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943319950LFr5c_JPEG/12079154582043065_17373399.jpg?type=f295_381",
+      "name": "test8",
+      "price": 23000,
+      "product_id": 36
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943177782O1WUT_JPEG/12079012611837895_1272929187.jpg?type=f295_381",
+      "name": "test7",
+      "price": 23000,
+      "product_id": 35
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_177/1610943763740g7QQB_JPEG/12079598554570127_1982250700.jpg?type=f295_381",
+      "name": "test6",
+      "price": 23000,
+      "product_id": 34
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943319950LFr5c_JPEG/12079154582043065_17373399.jpg?type=f295_381",
+      "name": "test5",
+      "price": 23000,
+      "product_id": 33
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943177782O1WUT_JPEG/12079012611837895_1272929187.jpg?type=f295_381",
+      "name": "test4",
+      "price": 32000,
+      "product_id": 32
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943177782O1WUT_JPEG/12079012611837895_1272929187.jpg?type=f295_381",
+      "name": "test10",
+      "price": 23000,
+      "product_id": 28
+    },
+
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_177/1610943763740g7QQB_JPEG/12079598554570127_1982250700.jpg?type=f295_381",
+      "name": "속이 메스꺼운 비타민",
+      "price": 34000,
+      "product_id": 3
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_177/1610943763740g7QQB_JPEG/12079598554570127_1982250700.jpg?type=f295_381",
+      "name": "속이 메스꺼운 비타민",
+      "price": 34000,
+      "product_id": 12
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_177/1610943763740g7QQB_JPEG/12079598554570127_1982250700.jpg?type=f295_381",
+      "name": "속이 메스꺼운 비타민",
+      "price": 34000,
+      "product_id": 6
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_177/1610943763740g7QQB_JPEG/12079598554570127_1982250700.jpg?type=f295_381",
+      "name": "속이 메스꺼운 비타민",
+      "price": 34000,
+      "product_id": 15
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_177/1610943763740g7QQB_JPEG/12079598554570127_1982250700.jpg?type=f295_381",
+      "name": "속이 메스꺼운 비타민",
+      "price": 34000,
+      "product_id": 9
+    }
+  ]
+}

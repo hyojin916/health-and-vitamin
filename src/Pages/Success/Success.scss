@@ -1,0 +1,40 @@
+@import '../../styles/common.scss';
+.success {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .messageBox {
+    background-color: rgba(255, 221, 227, 0.801);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    box-shadow: $box-shadow;
+
+    .desc,
+    .hi {
+      font-size: 24px;
+      margin-bottom: 11px;
+    }
+    .btn {
+      margin-top: 25px;
+      width: 100px;
+      height: 40px;
+      border: 1px solid rgb(5, 5, 5);
+      outline: none;
+      background-color: rgb(209, 209, 209);
+      border-radius: 3px;
+    }
+    .hi fa-heart {
+      width: 40px;
+      height: 40px;
+      color: pink;
+    }
+  }
+}

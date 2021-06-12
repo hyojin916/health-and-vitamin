@@ -1,0 +1,41 @@
+.payDiscount {
+  padding: 0 15px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding-bottom: 15px;
+
+  .contentHeader {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .autoDiscount {
+    font-size: 17px;
+    color: #333;
+  }
+
+  .discountBox {
+    height: 40px;
+    margin-top: 12px;
+    font-size: 16px;
+    color: #666;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .discountValue {
+    color: #508bed;
+    margin-right: 10px;
+    font-weight: 400;
+  }
+
+  .discountBtn {
+    background-color: white;
+    outline: none;
+    border: 1px solid rgb(182, 182, 182);
+    width: 97px;
+    height: 40px;
+    font-size: 16px;
+  }
+}

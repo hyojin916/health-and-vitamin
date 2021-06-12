@@ -1,0 +1,99 @@
+.Navigation {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.057);
+  &:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  button {
+    cursor: pointer;
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100px;
+
+    .left {
+      margin-top: 30px;
+
+      .logo {
+        font-size: 50px;
+        position: absolute;
+        width: 80px;
+        top: 80px;
+        margin-top: 240px;
+        transform: rotate(90deg);
+      }
+      .menuBox {
+        margin-left: 30px;
+        top: 30px;
+        width: 38px;
+        height: 38px;
+        .menuBtn {
+          overflow: visible;
+          width: 100%;
+          height: 100%;
+          border: 0;
+          background: none;
+        }
+        .listMenu {
+          display: flex;
+          flex-direction: column;
+          width: 32px;
+          margin-top: 700px;
+          font-size: 25px;
+          .fas {
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    position: fixed;
+    margin-left: 100px;
+    height: 100vh;
+
+    .rightBox {
+      height: 100%;
+      width: 500px;
+      background-color: white;
+      opacity: 1;
+      padding: 30px 40px;
+      .menu {
+        margin-top: 40px;
+        height: 100%;
+        width: 100px;
+        .goToSomething {
+          display: flex;
+          flex-direction: column;
+          text-decoration: none;
+          margin-top: 80px;
+          .goLink {
+            margin-bottom: 20px;
+            color: black;
+            text-decoration: none;
+            font-size: 37px;
+            font-weight: 300;
+
+            .aboutList {
+              margin: 20px;
+            }
+            .smallList {
+              color: gray;
+              font-size: 25px;
+              margin-top: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

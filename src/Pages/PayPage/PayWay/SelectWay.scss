@@ -1,0 +1,32 @@
+.selectPayWay {
+  border: 1px solid rgb(51, 147, 238);
+
+  .title {
+    background-color: #eff1f4;
+    border-bottom: 1px solid gray;
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+    padding: 11px 15px 10px;
+  }
+
+  .flexBox {
+    display: flex;
+    flex-wrap: wrap;
+
+    .radioGroup span {
+      padding: 17px 14px;
+    }
+
+    .radio {
+      width: 25px;
+      height: 40px;
+    }
+
+    .radioLabel {
+      position: relative;
+      top: -13px;
+      margin-right: 20px;
+    }
+  }
+}

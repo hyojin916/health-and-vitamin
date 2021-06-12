@@ -1,0 +1,20 @@
+@import '../../styles/common.scss';
+
+.productSubHeader {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 20px;
+  background-color: rgba(238, 238, 238, 0.561);
+  font-family: 'Noto Sans KR';
+
+  .title {
+    color: $gray;
+    font-size: $fs4;
+  }
+  .content {
+    margin-left: 10px;
+    color: $gray;
+    font-size: $fs2;
+  }
+}

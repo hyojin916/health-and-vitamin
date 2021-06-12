@@ -1,0 +1,50 @@
+@import '../../../styles/common.scss';
+
+.payOrder {
+  border-bottom: $border;
+
+  .productList {
+    margin: 25px;
+
+    .product {
+      display: flex;
+      margin-bottom: 15px;
+
+      .productImage {
+        width: 90px;
+        height: 90px;
+        margin-right: 20px;
+        border: $border;
+      }
+
+      .productDescription {
+        p {
+          line-height: 21px;
+          color: $gray;
+          font-size: $fs4;
+          margin-bottom: 5px;
+        }
+
+        .name {
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+
+        .discountValue {
+          color: $discountRed;
+        }
+      }
+
+      .productDelBtn {
+        width: 24px;
+        height: 24px;
+        margin-left: auto;
+        border: $border;
+        outline: none;
+        background-color: white;
+        color: #b5b5b5;
+        cursor: pointer;
+      }
+    }
+  }
+}

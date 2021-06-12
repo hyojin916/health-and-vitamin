@@ -1,0 +1,69 @@
+@import '../../../styles/common.scss';
+
+.bestSection {
+  margin-bottom: 100px;
+
+  header {
+    margin: 90px 10px 40px;
+    color: $black;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 300;
+
+    h1 {
+      margin-bottom: 25px;
+    }
+
+    p {
+      color: #888;
+      font-size: $fs7;
+    }
+  }
+
+  .productList {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    .product {
+      display: inline-block;
+      margin-right: 50px;
+      margin-bottom: 40px;
+      padding: 10px;
+      box-shadow: $box-shadow;
+      cursor: pointer;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        -webkit-transform: scale(1.02);
+        transform: scale(1.02);
+      }
+
+      & > * {
+        text-align: center;
+        margin-bottom: 10px;
+        color: $black;
+        font-size: $fs2;
+      }
+
+      .productImage {
+        width: 267px;
+      }
+
+      .price,
+      .result {
+        font-size: $fs5;
+      }
+
+      .price {
+        text-decoration: line-through;
+      }
+
+      .applyPrice {
+        font-weight: bold;
+      }
+    }
+  }
+}

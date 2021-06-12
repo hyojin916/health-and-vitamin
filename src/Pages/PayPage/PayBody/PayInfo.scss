@@ -1,0 +1,42 @@
+.payInfo {
+  color: #666;
+  font-size: 16px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+
+  .contentBox {
+    margin: 25px 0 20px 0;
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      margin: 15px 25px;
+    }
+  }
+
+  .result {
+    height: 48px;
+    background-color: #eff1f4;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    padding: 0 25px;
+  }
+
+  .resultTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    display: inline;
+  }
+
+  .resultValue {
+    color: #508bed;
+    font-size: 17px;
+    font-weight: bold;
+  }
+}

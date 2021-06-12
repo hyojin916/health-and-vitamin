@@ -1,0 +1,103 @@
+@import '../../styles/common.scss';
+
+.productDetail {
+  display: flex;
+  justify-content: center;
+
+  .imageBox {
+    display: inline-block;
+    padding-right: 60px;
+
+    .productImage {
+      display: inline-block;
+      width: 534px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      border: $imgBorder;
+    }
+    .productImageBox {
+      display: flex;
+      width: 540px;
+      height: 77px;
+      margin: 4px 0 0 auto;
+      margin-bottom: 20px;
+    }
+
+    .expandImageBox {
+      width: 540px;
+      height: 39.7px;
+      margin-top: 5px;
+      margin-left: auto;
+      background-color: rgba(246, 246, 246, 0.712);
+      border: $border;
+      color: #787878;
+      text-align: center;
+      line-height: 39.7px;
+      font-size: $fs2;
+      font-family: $NotoKR;
+      font-weight: $fw2;
+      cursor: pointer;
+    }
+  }
+
+  .infoBox {
+    display: inline-block;
+
+    .guideArea {
+      width: 540px;
+      padding-top: 12px;
+
+      font-family: $NotoKR;
+      font-weight: $fw3;
+      font-size: $fs2;
+      color: #757575;
+    }
+
+    .alertCount {
+      height: 17px;
+      margin-top: 20px;
+      color: #f76560;
+      font-size: $fs1;
+      font-family: $NotoKR;
+      line-height: 17px;
+
+      .alertCountSpan {
+        display: inline-block;
+        width: 14px;
+        height: 15px;
+        border: $border;
+        border-radius: 2px;
+        font-weight: bold;
+        font-size: $fs2;
+        text-align: center;
+        line-height: 10px;
+      }
+    }
+
+    .productInfoButtonBox {
+      @extend %flex-align-center;
+      flex-wrap: wrap;
+      height: 60px;
+      width: 600px;
+
+      .btn {
+        flex-basis: 32.5%;
+        height: 47px;
+        margin-left: 3px;
+        color: #333;
+        background-color: white;
+        border: $border;
+        border-radius: 3px;
+        font-family: $NotoKR;
+        font-size: $fs3;
+        cursor: pointer;
+      }
+
+      .btnBuy {
+        border: none;
+        background-color: $black;
+        color: white;
+      }
+    }
+  }
+}

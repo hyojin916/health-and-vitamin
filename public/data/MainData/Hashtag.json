@@ -1,0 +1,80 @@
+{
+  "HASH_TAG_EYE_PRODUCT": [
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943177782O1WUT_JPEG/12079012611837895_1272929187.jpg?type=f295_381",
+      "name": "test1",
+      "price": 32000,
+      "product_id": 19
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943319950LFr5c_JPEG/12079154582043065_17373399.jpg?type=f295_381",
+      "name": "test5",
+      "price": 23000,
+      "product_id": 23
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_177/1610943763740g7QQB_JPEG/12079598554570127_1982250700.jpg?type=f295_381",
+      "name": "test9",
+      "price": 23000,
+      "product_id": 27
+    }
+  ],
+  "HASH_TAG_FOCUS_ON_PRODUCT": [
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_177/1610943763740g7QQB_JPEG/12079598554570127_1982250700.jpg?type=f295_381",
+      "name": "test3",
+      "price": 34000,
+      "product_id": 21
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943177782O1WUT_JPEG/12079012611837895_1272929187.jpg?type=f295_381",
+      "name": "test7",
+      "price": 23000,
+      "product_id": 25
+    }
+  ],
+  "HASH_TAG_GROWTH_PRODUCT": [
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943319950LFr5c_JPEG/12079154582043065_17373399.jpg?type=f295_381",
+      "name": "test2",
+      "price": 23000,
+      "product_id": 20
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_177/1610943763740g7QQB_JPEG/12079598554570127_1982250700.jpg?type=f295_381",
+      "name": "test6",
+      "price": 23000,
+      "product_id": 24
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943177782O1WUT_JPEG/12079012611837895_1272929187.jpg?type=f295_381",
+      "name": "test10",
+      "price": 23000,
+      "product_id": 28
+    }
+  ],
+  "HASH_TAG_SKIN_PRODUCT": [
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943177782O1WUT_JPEG/12079012611837895_1272929187.jpg?type=f295_381",
+      "name": "test4",
+      "price": 32000,
+      "product_id": 22
+    },
+    {
+      "discount": 10,
+      "image": "https://shop-phinf.pstatic.net/20210118_155/1610943319950LFr5c_JPEG/12079154582043065_17373399.jpg?type=f295_381",
+      "name": "test8",
+      "price": 23000,
+      "product_id": 26
+    }
+  ]
+}

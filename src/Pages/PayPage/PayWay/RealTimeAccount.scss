@@ -1,0 +1,40 @@
+/* rTime */
+.rTimeDesc {
+  padding: 10px 15px;
+
+  .rTimelabel {
+    width: 100px;
+    height: 55px;
+  }
+
+  .rTimeInput {
+    width: 110px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 1px solid gray;
+    outline: none;
+  }
+
+  .rTimeCheckBox {
+    margin-left: 83px;
+  }
+
+  .rTimeCheck {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 5px;
+  }
+
+  .rTimeCheckLabel {
+    height: 24px;
+    line-height: 24px;
+  }
+
+  .rTimeDescSub {
+    list-style-type: none;
+    padding: 10px 0px;
+    font-size: 13px;
+    color: #999;
+  }
+}

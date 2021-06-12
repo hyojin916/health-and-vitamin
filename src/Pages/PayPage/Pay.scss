@@ -1,0 +1,64 @@
+@import '../../styles/common.scss';
+
+.pay {
+  max-width: 900px;
+  margin: 0 auto;
+  border: $border;
+  color: $black;
+
+  .header {
+    @extend %flex-align-center;
+    justify-content: space-between;
+    height: 58px;
+
+    .fa-chevron-left {
+      margin-left: 15px;
+    }
+
+    a {
+      display: inline-block;
+      color: $black;
+      font-size: $fs8;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    span > i {
+      height: 15px;
+      margin-right: 10px;
+    }
+  }
+
+  .order {
+    height: 56px;
+    margin: auto 0;
+    background-color: $darkBlue;
+    color: white;
+    text-align: center;
+    font-size: $fs20;
+    line-height: 56px;
+  }
+
+  .payBox {
+    margin-top: 20px;
+
+    .payBtn {
+      width: 98%;
+      height: 48px;
+      margin: 0 7px 0 1%;
+      outline: none;
+      border: none;
+      background-color: $darkBlue;
+      color: white;
+      font-size: $fs8;
+      cursor: pointer;
+    }
+
+    .desc {
+      margin: 15px;
+      color: #999;
+      font-size: $fs3;
+      line-height: 15px;
+    }
+  }
+}

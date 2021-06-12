@@ -1,0 +1,23 @@
+@import '../../styles/common.scss';
+
+.productTotalBox {
+  @extend %flex-align-center;
+  flex-direction: row-reverse;
+  width: 600px;
+  height: 60px;
+  font-family: $NotoKR;
+
+  .description {
+    color: $black;
+    font-size: $fs4;
+  }
+
+  .price {
+    font-size: $fs21;
+    font-weight: bold;
+  }
+
+  .count {
+    font-size: $fs4;
+  }
+}

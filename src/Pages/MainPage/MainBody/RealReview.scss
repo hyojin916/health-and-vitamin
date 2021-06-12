@@ -1,0 +1,110 @@
+@import '../../../styles/common.scss';
+
+.realReviewSection {
+  color: $black;
+
+  header {
+    margin: 90px 0 40px;
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .reviewList {
+    max-width: 1190px;
+    margin: 0 auto;
+
+    .review {
+      display: inline-block;
+      margin: 0 10px 50px 10px;
+      border: $border;
+      text-align: center;
+      cursor: pointer;
+      margin-left: 57px;
+
+      .reviewImage,
+      .fa-exclamation-circle {
+        width: 215px;
+        height: 237px;
+      }
+
+      .fa-exclamation-circle {
+        padding-top: 100px;
+      }
+
+      .content {
+        width: 191px;
+        height: 23px;
+        margin-bottom: 5px;
+        color: #000;
+        font-size: 12px;
+        line-height: 23px;
+        overflow: hidden;
+      }
+
+      .userInfo {
+        max-width: 200px;
+        margin-bottom: 10px;
+        color: #c4c4c4;
+        font-size: $fs1;
+
+        .userId {
+          margin-right: 10px;
+        }
+
+        .createdAt {
+          margin-left: 30px;
+        }
+      }
+
+      .forWidLine {
+        width: 200px;
+        height: 1px;
+        position: relative;
+        left: 8px;
+        border-bottom: $border;
+      }
+
+      .product {
+        padding-top: 10px;
+
+        .productImage {
+          width: 33px;
+          height: 33px;
+        }
+
+        .productInfo {
+          display: inline-block;
+          padding-bottom: 10px;
+
+          .name {
+            width: 140px;
+            height: 20px;
+            margin: 0 0 5px 10px;
+            line-height: 20px;
+            font-size: $fs1;
+            color: #000;
+            overflow: hidden;
+          }
+
+          .reviewInfo {
+            display: flex;
+            justify-content: start;
+            width: 140px;
+            color: #c3b799;
+            font-size: $fs1;
+
+            .reviewCount {
+              margin: 0 20px 0 5px;
+            }
+
+            .reviewValue,
+            .gradeValue {
+              color: $black;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}

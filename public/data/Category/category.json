@@ -1,0 +1,46 @@
+[
+  {
+    "main_category_id": 1,
+    "main_category_list": [
+      {
+        "category_id": 1,
+        "category_name": "비타민 A"
+      },
+      {
+        "category_id": 2,
+        "category_name": "비타민 B"
+      },
+      {
+        "category_id": 3,
+        "category_name": "비타민 C"
+      },
+      {
+        "category_id": 4,
+        "category_name": "비타민 D"
+      }
+    ],
+    "main_category_name": "비타민별 제품"
+  },
+  {
+    "main_category_id": 2,
+    "main_category_list": [
+      {
+        "category_id": 5,
+        "category_name": "유아 & 어린이"
+      },
+      {
+        "category_id": 6,
+        "category_name": "청소년"
+      },
+      {
+        "category_id": 7,
+        "category_name": "성인 남성"
+      },
+      {
+        "category_id": 8,
+        "category_name": "성인 여성"
+      }
+    ],
+    "main_category_name": "연령별 제품"
+  }
+]

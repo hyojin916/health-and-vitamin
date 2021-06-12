@@ -1,0 +1,35 @@
+{
+  "MESSAGE": "SUCCESS",
+  "PRODUCT_LIST": [
+    {
+      "id": 2,
+      "count": 5,
+      "name": "핸드크림",
+      "price": 5000,
+      "discount": 10,
+      "image": "http://duftndoft.com/web/product/extra/big/202104/4396c1e7bbcd7f7bcc9f8bb53381c815.jpg"
+    },
+    {
+      "id": 3,
+      "count": 5,
+      "name": "샴푸",
+      "price": 15000,
+      "discount": 10,
+      "image": "//duftndoft.com/web/product/medium/202103/9655f27038725ecf16a260a7965532d4.jpg"
+    },
+    {
+      "id": 4,
+      "count": 1,
+      "name": "쇼핑백",
+      "price": 500,
+      "discount": 0,
+      "image": "http://duftndoft.com/web/product/tiny/202103/c7785a60f402d312f85f997dfcf80ce4.jpg"
+    }
+  ],
+  "SHIPPING_FEE": [
+    {
+      "shipping_fee": 2500,
+      "minimum_free": 25000
+    }
+  ]
+}

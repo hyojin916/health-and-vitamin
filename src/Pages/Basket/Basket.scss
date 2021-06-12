@@ -1,0 +1,288 @@
+.basket_page_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .basket_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 0;
+
+    .title {
+      font-size: 38px;
+    }
+
+    .basket {
+      margin: 100px;
+
+      .area {
+        display: flex;
+        height: 50px;
+        width: auto;
+        margin-bottom: 50px;
+        background-color: #dbd9d9;
+      }
+      .main_basket {
+        .products_basket {
+          margin-bottom: 50px;
+
+          .basket_top {
+            background-color: #dbd9d9;
+            height: 50px;
+            padding-top: 17px;
+            padding-left: 8px;
+            font-size: 20px;
+          }
+
+          .check {
+            .check_info {
+              text-align: center;
+              align-items: center;
+
+              .info_list {
+                display: flex;
+                height: 40px;
+                background-color: #fafafa;
+                .check_list {
+                  text-align: center;
+                  padding-top: 12px;
+                }
+                .bk_check {
+                  width: 30px;
+                }
+                .bk_img {
+                  width: 100px;
+                }
+                .bk_pdInfo {
+                  width: 500px;
+                }
+                .bk_price {
+                  width: 100px;
+                }
+                .bk_count {
+                  width: 80px;
+                }
+                .bk_plus {
+                  width: 100px;
+                }
+                .bk_dilivery_type {
+                  width: 100px;
+                }
+                .bk_dilivery {
+                  width: 90px;
+                }
+                .bk_sum {
+                  width: 100px;
+                }
+                .bk_choose {
+                  width: 100px;
+                }
+              }
+
+              .basket_items {
+                .item {
+                  display: flex;
+                  align-items: center;
+                  height: 130px;
+                  border-bottom: 1px solid rgb(226, 224, 224);
+
+                  .item_img {
+                    width: 70px;
+                    height: 70px;
+                  }
+                  .bk_check {
+                    width: 30px;
+                  }
+                  .bk_img {
+                    width: 80px;
+                    height: 80px;
+                  }
+                  .bk_pdInfo {
+                    width: 500px;
+                  }
+                  .bk_price {
+                    width: 100px;
+                  }
+                  .item_price {
+                    text-decoration: line-through;
+                  }
+
+                  .bk_count {
+                    display: flex;
+                    width: 80px;
+                    input {
+                      width: 30px;
+                      height: 20px;
+                      margin-right: 2px;
+                    }
+                    .count_box {
+                      display: flex;
+                      flex-direction: column;
+                      .fa-sort-up,
+                      .fa-sort-down {
+                        background-color: white;
+                        border: 0.8px solid gray;
+                        width: 20px;
+                        height: 10px;
+                      }
+                      .fa-sort-down {
+                        line-height: 4px;
+                      }
+                    }
+                  }
+
+                  .bk_plus {
+                    width: 100px;
+                  }
+                  .bk_dilivery_type {
+                    width: 100px;
+                  }
+                  .bk_dilivery {
+                    width: 90px;
+                  }
+                  .bk_sum {
+                    width: 100px;
+                  }
+                  .bk_choose {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100px;
+
+                    button {
+                      width: 85px;
+                      height: 30px;
+                      font-size: 13px;
+                      margin-bottom: 2px;
+                      border: 1px solid gray;
+                      border-radius: 3px;
+                      background: none;
+                      &:first-child {
+                        background-color: black;
+                        color: white;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .calculator {
+                .delivery_box {
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 20px 10px;
+                  border-bottom: 1px solid rgb(226, 224, 224);
+                  background-color: rgb(223, 223, 223);
+                }
+
+                .move_item {
+                  display: flex;
+                  justify-content: space-between;
+                  margin-top: 20px;
+
+                  button {
+                    margin: 2px;
+                    height: 30px;
+                    background: none;
+                    border: 1px solid gray;
+                    border-radius: 3px;
+                  }
+
+                  .move button:first-child {
+                    width: 80px;
+                    background-color: #777777;
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .products_sum {
+          margin-bottom: 20px;
+          border-top: 1px solid black;
+          border-bottom: 1px solid black;
+
+          .sum_categori {
+            display: flex;
+            height: 60px;
+            align-items: center;
+            text-align: center;
+            background-color: #dbd9d944;
+            border-bottom: 1px solid rgb(238, 234, 234);
+            font-size: 15px;
+            font-weight: 400;
+            color: rgb(179, 174, 174);
+
+            .sum_all {
+              width: 210px;
+            }
+            .sum_dilivery {
+              width: 250px;
+            }
+            .sum_discount {
+              width: 220px;
+            }
+            .sum_expect {
+              width: 580px;
+            }
+          }
+
+          .result {
+            display: flex;
+            height: 70px;
+            align-items: center;
+            text-align: center;
+            font-size: 22px;
+
+            .sum_all {
+              width: 210px;
+            }
+            .sum_dilivery {
+              width: 250px;
+            }
+            .sum_discount {
+              width: 220px;
+            }
+            .sum_expect {
+              width: 580px;
+            }
+          }
+        }
+      }
+
+      .btns {
+        display: flex;
+        justify-content: space-between;
+        button {
+          margin: 2px;
+          width: 138px;
+          height: 40px;
+          background: none;
+          border: none;
+          border-radius: 4px;
+        }
+
+        .order_btns {
+          margin: auto;
+
+          .order_all_btn {
+            background-color: black;
+            color: white;
+          }
+
+          .order_select_btn {
+            background-color: gray;
+            color: white;
+          }
+        }
+
+        .keep_shopping {
+          border: 1px solid rgb(216, 213, 213);
+        }
+      }
+    }
+  }
+}

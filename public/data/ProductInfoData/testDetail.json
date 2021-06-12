@@ -1,0 +1,47 @@
+{
+  "MESSAGE": "SUCCESS",
+  "RESULT": [
+    {
+      "id": 2,
+      "name": "핸드크림",
+      "price": 5000,
+      "stock": 99,
+      "detail": "향이 좋아여~ ^_^",
+      "shipping_fee": 2500,
+      "minimum_free": 20000,
+      "discount": 10,
+      "detail_images": [
+        {
+          "image_id": 4,
+          "image_url": "http://duftndoft.com/web/product/extra/big/202104/4396c1e7bbcd7f7bcc9f8bb53381c815.jpg"
+        },
+        {
+          "image_id": 5,
+          "image_url": "http://duftndoft.com/web/product/extra/big/202104/4413079cba8eeb438345f8e07b3469d9.jpg"
+        },
+        {
+          "image_id": 6,
+          "image_url": "http://duftndoft.com/web/product/extra/big/202104/5ea6a78ea8b5fcf87a3d64d07ad1578e.jpg"
+        }
+      ],
+      "option_items": [
+        {
+          "id": 4,
+          "name": "쇼핑백",
+          "price": 500,
+          "stock": 999,
+          "image_id": 10,
+          "image_url": "http://duftndoft.com/web/product/tiny/202103/c7785a60f402d312f85f997dfcf80ce4.jpg"
+        },
+        {
+          "id": 5,
+          "name": "선물상자",
+          "price": 1500,
+          "stock": 999,
+          "image_id": 11,
+          "image_url": "http://duftndoft.com/web/product/tiny/202102/084d214cbc9ca59a120e1c3a9d6cb5df.jpg"
+        }
+      ]
+    }
+  ]
+}

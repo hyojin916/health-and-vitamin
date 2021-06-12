@@ -1,0 +1,166 @@
+@import '../../../styles/common.scss';
+
+.payDelivery {
+  padding: 15px;
+  border-bottom: $border;
+
+  .delieveryForm {
+    margin: 0 14px;
+
+    input,
+    select,
+    button {
+      height: 40px;
+      padding: 7px;
+      background: #fff;
+      outline: none;
+      font-size: $fs6;
+      border: $border;
+    }
+
+    input {
+      color: $black;
+    }
+
+    select {
+      width: 245px;
+    }
+
+    button {
+      background: #f0f0f0;
+      cursor: pointer;
+    }
+
+    .lb {
+      display: inline-block;
+      width: 100px;
+      height: 40px;
+    }
+
+    .receiverBox {
+      margin-top: 20px;
+
+      .receiver {
+        width: 88%;
+        height: 40px;
+        padding: 7px;
+        background: #fff;
+
+        font-size: $fs6;
+        border: $border;
+      }
+    }
+
+    .box {
+      margin-bottom: 15px;
+
+      .addressNumber {
+        width: 130px;
+        text-align: center;
+        margin-right: 10px;
+      }
+
+      .addressBtn {
+        position: relative;
+        width: 110px;
+        top: 1px;
+      }
+
+      .addressInput {
+        display: block;
+        width: 88%;
+        margin-left: 100px;
+        margin-bottom: 5px;
+      }
+    }
+
+    .emailBox {
+      & > select,
+      input {
+        width: 343px;
+      }
+
+      .emailSub {
+        margin-left: 105px;
+        margin-top: 0px;
+        font-size: $fs3;
+        line-height: 18px;
+      }
+    }
+  }
+
+  .safeNumberServiceBox {
+    .SafeNumberService {
+      margin-top: 15px;
+      background-color: rgba(240, 240, 240, 0.658);
+      height: 58px;
+      line-height: 58px;
+      font-size: 16px;
+      color: #666;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid rgb(211, 211, 211);
+      border-bottom: 1px solid rgb(211, 211, 211);
+
+      .safeService {
+        margin-left: 15px;
+        transform: scale(1.5);
+        outline: none;
+        border: 0.5px solid gray;
+        margin-right: 10px;
+      }
+      label {
+        font-weight: 500;
+      }
+      span {
+        display: inline-block;
+        position: relative;
+        margin-right: 15px;
+        font-size: 15px;
+      }
+    }
+
+    span {
+      display: inline-block;
+      margin-right: 0px;
+    }
+
+    .SelectMessage {
+      background-color: rgba(240, 240, 240, 0.658);
+      height: 58px;
+      line-height: 58px;
+      font-size: 16px;
+      border-bottom: 1px solid rgb(211, 211, 211);
+
+      color: #666;
+      select {
+        height: 40px;
+        font-size: 16px;
+        outline: none;
+        border: 1px solid rgb(212, 212, 212);
+      }
+    }
+    .message {
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    .SaveDeliveryBasis {
+      background-color: rgba(240, 240, 240, 0.658);
+      height: 58px;
+      line-height: 58px;
+      font-size: 16px;
+      border-bottom: 1px solid rgb(211, 211, 211);
+      color: #666;
+
+      .saveBasis {
+        margin-left: 15px;
+        transform: scale(1.5);
+        outline: none;
+        border: 0.5px solid gray;
+        margin-right: 10px;
+      }
+    }
+  }
+}
