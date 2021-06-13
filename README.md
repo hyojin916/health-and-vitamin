@@ -57,4 +57,4 @@ Backend
 
 ## 💻 HEALTH & VITAMIN 구현 영상
 
-youtube.com/embed/HtSHPNFl71g
+https://www.youtube.com/watch?v=HtSHPNFl71g
