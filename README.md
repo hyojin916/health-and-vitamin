@@ -47,15 +47,14 @@ Backend
 
 ---
 
-## 👩🏻‍💻 구현 내용 (admin page)
+## 👩🏻‍💻 구현 내용
 
 ### 김효진
 
 - fetch() method로 GET, DELET, PATCH, POST를 사용하여 장바구니에서 물품 가져오기, 물품 삭제, 수량 변경, 결제 페이지로 이동
 - JSON 파일을 이용한 mock data 활용.
 - map()을 사용하여 리스트 페이지의 제품 컴포넌트를 재배열
--
 
 ## 💻 HEALTH & VITAMIN 구현 영상
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HtSHPNFl71g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+youtube.com/embed/HtSHPNFl71g
