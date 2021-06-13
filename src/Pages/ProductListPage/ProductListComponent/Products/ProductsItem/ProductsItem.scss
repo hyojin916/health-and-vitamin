@@ -3,11 +3,11 @@
 .productList {
   .product_items {
     display: grid;
+    margin-left: 60px;
+    width: 100%;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 7px;
-    margin-left: 60px;
-    width: 100%;
 
     .product_item {
       display: flex;

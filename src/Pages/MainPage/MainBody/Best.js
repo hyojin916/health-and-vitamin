@@ -9,7 +9,6 @@ class Best extends Component {
   }
 
   componentDidMount() {
-    // fetch('http://localhost:8000/products/main-best')
     fetch('http://18.116.64.187:8000/products/main-best')
       .then(res => res.json())
       .then(data => {

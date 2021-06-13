@@ -96,9 +96,7 @@ class Login extends Component {
                   className={'loginBtBox ' + this.state.isBtnAble}
                   onClick={this.goToMain}
                 >
-                  {/* <a className="loginBt" href="/"> */}
                   로그인
-                  {/* </a> */}
                 </button>
               </div>
             </div>

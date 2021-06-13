@@ -2,19 +2,18 @@
   .change_page {
     display: flex;
     justify-content: space-between;
-    // align-items: center;
+    margin: 100px auto 0 auto;
     width: 270px;
     height: 100px;
-    margin: 100px auto 0 auto;
     text-align: center;
 
     .page {
       width: 40px;
       height: 40px;
-      background-color: rgba(223, 219, 219, 0.61);
       line-height: 2.2;
       font-size: 20px;
       border-radius: 50%;
+      background-color: rgba(223, 219, 219, 0.61);
     }
 
     .change {

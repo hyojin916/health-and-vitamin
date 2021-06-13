@@ -3,24 +3,25 @@
     padding: 15px 25px;
 
     li {
+      display: flex;
+      justify-content: space-between;
       height: 32px;
       line-height: 32px;
       color: #666;
-      display: flex;
-      justify-content: space-between;
     }
   }
 
   .benefitExpect {
     display: flex;
     justify-content: space-between;
-    height: 55px;
     padding: 16px 15px;
-    color: #333;
-    background-color: #eff1f4;
+    height: 55px;
     font-size: 18px;
     font-weight: bold;
     line-height: 23px;
+    color: #333;
+    background-color: #eff1f4;
+
     .result {
       color: #508bed;
     }

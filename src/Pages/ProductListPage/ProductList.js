@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
+import { isTruthyObj } from '../../utils/function';
 import Title from './ProductListComponent/Title/Title';
 import Products from './ProductListComponent/Products/Products';
 import './ProductList.scss';
-import { isTruthyObj } from '../../utils/function';
 
 class ProductList extends Component {
   constructor() {

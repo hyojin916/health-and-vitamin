@@ -41,13 +41,8 @@ class FavoriteProduct extends Component {
   deleteItem = e => {
     let index = e.target.id;
 
-    // 1. 원본 배열 접근
-    // 2. filter 함수 사용
-    // 3. 조건을 통해 원하는 값 선택
-
     this.setState({
       favoritList: this.state.favoritList.filter(favorite => {
-        console.log(favorite.id);
         if (favorite.id === Number(index)) {
           return false;
         } else {

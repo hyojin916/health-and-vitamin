@@ -44,6 +44,7 @@
                 display: flex;
                 height: 40px;
                 background-color: #fafafa;
+
                 .check_list {
                   text-align: center;
                   padding-top: 12px;
@@ -111,21 +112,25 @@
                   .bk_count {
                     display: flex;
                     width: 80px;
+
                     input {
+                      margin-right: 2px;
                       width: 30px;
                       height: 20px;
-                      margin-right: 2px;
                     }
+
                     .count_box {
                       display: flex;
                       flex-direction: column;
+
                       .fa-sort-up,
                       .fa-sort-down {
-                        background-color: white;
-                        border: 0.8px solid gray;
                         width: 20px;
                         height: 10px;
+                        background-color: white;
+                        border: 0.8px solid gray;
                       }
+
                       .fa-sort-down {
                         line-height: 4px;
                       }
@@ -135,15 +140,19 @@
                   .bk_plus {
                     width: 100px;
                   }
+
                   .bk_dilivery_type {
                     width: 100px;
                   }
+
                   .bk_dilivery {
                     width: 90px;
                   }
+
                   .bk_sum {
                     width: 100px;
                   }
+
                   .bk_choose {
                     display: flex;
                     flex-direction: column;
@@ -151,13 +160,14 @@
                     width: 100px;
 
                     button {
+                      margin-bottom: 2px;
                       width: 85px;
                       height: 30px;
-                      font-size: 13px;
-                      margin-bottom: 2px;
                       border: 1px solid gray;
                       border-radius: 3px;
+                      font-size: 13px;
                       background: none;
+
                       &:first-child {
                         background-color: black;
                         color: white;
@@ -183,10 +193,10 @@
 
                   button {
                     margin: 2px;
-                    height: 30px;
-                    background: none;
                     border: 1px solid gray;
                     border-radius: 3px;
+                    height: 30px;
+                    background: none;
                   }
 
                   .move button:first-child {
@@ -207,24 +217,27 @@
 
           .sum_categori {
             display: flex;
-            height: 60px;
             align-items: center;
             text-align: center;
-            background-color: #dbd9d944;
+            height: 60px;
             border-bottom: 1px solid rgb(238, 234, 234);
             font-size: 15px;
             font-weight: 400;
             color: rgb(179, 174, 174);
+            background-color: #dbd9d944;
 
             .sum_all {
               width: 210px;
             }
+
             .sum_dilivery {
               width: 250px;
             }
+
             .sum_discount {
               width: 220px;
             }
+
             .sum_expect {
               width: 580px;
             }
@@ -232,20 +245,23 @@
 
           .result {
             display: flex;
-            height: 70px;
             align-items: center;
+            height: 70px;
             text-align: center;
             font-size: 22px;
 
             .sum_all {
               width: 210px;
             }
+
             .sum_dilivery {
               width: 250px;
             }
+
             .sum_discount {
               width: 220px;
             }
+
             .sum_expect {
               width: 580px;
             }
@@ -256,6 +272,7 @@
       .btns {
         display: flex;
         justify-content: space-between;
+
         button {
           margin: 2px;
           width: 138px;

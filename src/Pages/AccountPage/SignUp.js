@@ -20,17 +20,6 @@ class SignUp extends Component {
   }
 
   signUp = () => {
-    console.log('sign');
-    console.log({
-      division: true,
-      account: this.state.id,
-      email: this.state.email,
-      name: this.state.name,
-      password: this.state.pw,
-      phone_number: this.state.phone,
-      gender: this.state.gender,
-      date_of_birth: this.state.birth,
-    });
     fetch('http://18.116.64.187:8000/users/signup', {
       method: 'POST',
       body: JSON.stringify({

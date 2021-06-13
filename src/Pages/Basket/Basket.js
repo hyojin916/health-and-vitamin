@@ -14,7 +14,6 @@ class Basket extends Component {
     };
   }
 
-  //[장바구니] (서버 -> 장바구니) Item 가져오기
   componentDidMount() {
     fetch('http://18.116.64.187:8000/carts', {
       headers: {
@@ -25,13 +24,10 @@ class Basket extends Component {
     })
       .then(res => res.json())
       .then(data => {
-        console.log('cart정보');
-        console.log(data);
         this.setState({ orderList: data.PRODUCT_LIST });
       });
   }
 
-  // [장바구니](장바구니 -> 서버) 장바구니 담은 상품 전달하기
   giveItemList = () => {
     let products = this.state.orderList.map(order => {
       return {
@@ -39,8 +35,6 @@ class Basket extends Component {
         count: order.count,
       };
     });
-    console.log('products');
-    console.log(products);
 
     fetch('http://18.116.64.187:8000/carts', {
       method: 'POST',
@@ -54,21 +48,18 @@ class Basket extends Component {
       },
     })
       .then(res => res.json())
-      .then(data => {
-        // { MESSAGE: SUCCESS }
-      });
+      .then(data => {});
     this.props.history.push('/pay');
   };
 
-  deleteBasketItem = cool => {
-    // cool 이란 어떤 객체인지 구분해 주는 특정 데이터이다. ex) id
+  deleteBasketItem = i => {
     let { orderList } = this.state;
     this.setState({
       orderList: orderList.filter(({ id }) => {
-        return id !== cool;
+        return id !== i;
       }),
     });
-    this.deleteFetch(cool);
+    this.deleteFetch(i);
   };
 
   deleteAllOrder = () => {
@@ -100,7 +91,6 @@ class Basket extends Component {
       orderList: orderList.map(order => {
         if (order.id !== itemId) return order;
         return { ...order, count };
-        // return { ...order, count : count };
       }),
     });
   };

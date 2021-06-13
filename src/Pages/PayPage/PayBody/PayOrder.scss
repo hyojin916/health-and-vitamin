@@ -20,14 +20,14 @@
       .productDescription {
         p {
           line-height: 21px;
+          margin-bottom: 5px;
           color: $gray;
           font-size: $fs4;
-          margin-bottom: 5px;
         }
 
         .name {
-          font-weight: 500;
           margin-bottom: 5px;
+          font-weight: 500;
         }
 
         .discountValue {

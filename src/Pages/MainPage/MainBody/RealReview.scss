@@ -15,11 +15,10 @@
 
     .review {
       display: inline-block;
-      margin: 0 10px 50px 10px;
+      margin: 0 10px 50px 57px;
       border: $border;
       text-align: center;
       cursor: pointer;
-      margin-left: 57px;
 
       .reviewImage,
       .fa-exclamation-circle {
@@ -32,18 +31,18 @@
       }
 
       .content {
+        margin-bottom: 5px;
         width: 191px;
         height: 23px;
-        margin-bottom: 5px;
-        color: #000;
-        font-size: 12px;
         line-height: 23px;
         overflow: hidden;
+        color: #000;
+        font-size: 12px;
       }
 
       .userInfo {
-        max-width: 200px;
         margin-bottom: 10px;
+        max-width: 200px;
         color: #c4c4c4;
         font-size: $fs1;
 

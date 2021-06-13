@@ -84,7 +84,6 @@ class ProductDetail extends Component {
       nnn = nnn.map(el => {
         return { product_id: el.id, count: el.count };
       });
-      // console.log([...nnn, { product_id: id, count: count }]);
       fetch('http://18.116.64.187:8000/carts', {
         method: 'POST',
         headers: {

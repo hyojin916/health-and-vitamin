@@ -12,7 +12,6 @@ class HotKeyword extends Component {
   }
 
   componentDidMount() {
-    // fetch('localhost:8000/products/main-hashtag')
     fetch('http://18.116.64.187:8000/products/main-hashtag')
       .then(res => res.json())
       .then(data => {

@@ -24,7 +24,6 @@ class Nav extends Component {
   };
 
   isDownClick = () => {
-    // console.log(isDownClick);
     this.setState({
       downClick: !this.state.downClick,
     });
@@ -88,8 +87,6 @@ class Nav extends Component {
                               return (
                                 <Link
                                   className="smallList"
-                                  // onClick={this.cateClick}
-                                  // id={category.main_category_id}
                                   to={`/product-list/${
                                     category.main_category_id * 1 - 1
                                   }`}

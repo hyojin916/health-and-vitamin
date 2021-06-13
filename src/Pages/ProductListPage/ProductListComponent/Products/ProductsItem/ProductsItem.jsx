@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import SalePrice from '../../../../../Components/SalePrice/SalePrice';
-import ItemHide from '../../../../../Components/SalePrice/SalePrice';
 import './ProductsItem.scss';
 
 class ProductsItem extends Component {
@@ -19,7 +18,6 @@ class ProductsItem extends Component {
           <i class="fas fa-search"></i>
         </div>
         <div
-          // onChange={noDiscount}
           className={
             discount === 0 ? 'info item_price_noDiscount' : 'info item_price'
           }

@@ -97,7 +97,7 @@ class Pay extends Component {
   };
 
   render() {
-    const { productList, shippingFee } = this.state;
+    const { productList } = this.state;
     console.log(
       productList.reduce((acc, cur) => {
         return acc + (cur.price - (cur.price * cur.discount) / 100) * cur.count;

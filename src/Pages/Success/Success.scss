@@ -1,27 +1,28 @@
 @import '../../styles/common.scss';
+
 .success {
-  width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  width: 100vw;
 
   .messageBox {
-    background-color: rgba(255, 221, 227, 0.801);
-    width: 500px;
-    height: 300px;
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
+    width: 500px;
+    height: 300px;
     box-shadow: $box-shadow;
+    background-color: rgba(255, 221, 227, 0.801);
 
     .desc,
     .hi {
-      font-size: 24px;
       margin-bottom: 11px;
+      font-size: 24px;
     }
+
     .btn {
       margin-top: 25px;
       width: 100px;
@@ -31,6 +32,7 @@
       background-color: rgb(209, 209, 209);
       border-radius: 3px;
     }
+
     .hi fa-heart {
       width: 40px;
       height: 40px;

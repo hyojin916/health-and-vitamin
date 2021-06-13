@@ -43,7 +43,6 @@ class MainBasket extends Component {
                     );
                   })}
               </ul>
-              {/* [기본배송] 합계 */}
               <div className="calculator">
                 <div className="delivery_box">
                   <div className="delivery_type">[기본배송]</div>
